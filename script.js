@@ -7,7 +7,7 @@ function toggleMenu() {
 
 
 document.addEventListener("DOMContentLoaded", function() {
-  const roles = ["Full Stack Developer", "Data Engineer", "Software Engineer", "Web Developer"];
+  const roles = ["Full Stack Developer", "Software Engineer", "Front-end Developer", "Data Engineer"];
   const roleElement = document.getElementById("role");
   const cursorElement = document.getElementById("cursor");
 
