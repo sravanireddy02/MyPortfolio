@@ -706,7 +706,7 @@ section {
 
 
 .resp {
-  column-count: 1;
+  column-count: 2;
   column-gap: 2rem; /* Adjust the gap between columns */
   list-style-type: disc; /* Ensure bullets are shown */
   padding-left: 20px; /* Optional: Indent bullets */
