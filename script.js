@@ -6,8 +6,23 @@ function toggleMenu() {
 }
 
 
+function openAndDownload() {
+  var url = './assets/Resume_Sravani_latest.pdf';
+  
+  // Open PDF in a new tab
+  window.open(url, '_blank');
+
+  // Simulate a download
+  var a = document.createElement('a');
+  a.href = url;
+  a.download = 'Resume_SravaniArugunta.pdf'; // Suggests a filename for saving
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+}
+
 document.addEventListener("DOMContentLoaded", function() {
-  const roles = ["Full Stack Developer", "Software Engineer", "Front-end Developer", "Data Engineer"];
+  const roles = ["Full-Stack Developer", "Software Dev Engineer", "Frontend Developer", "Backend Developer"];
   const roleElement = document.getElementById("role");
   const cursorElement = document.getElementById("cursor");
 
